@@ -7,6 +7,6 @@ public class back_To_Tata_Power {
 
 	public void clickButton(WebDriver driver) {
 		driver.findElement(By.xpath("//aside[text()='LT 3 PHASE CONNECTION (5.5KW TO 70KVA)']")).click();
-		System.out.println("Sucess");
+		System.out.println("Sucess message");
 	}
 }
